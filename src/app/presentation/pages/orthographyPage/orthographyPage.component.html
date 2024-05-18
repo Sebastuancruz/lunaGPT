@@ -17,21 +17,7 @@
             </div>
       </div>
       <!-- MESSAGE BOX -->
-      <!-- <app-text-message-box
-      placeholder="Escribe el texto que deseas que mejore..."
-      (onMessage)="handleMessage($event)"/> -->
-<!-- 
-      <app-text-message-box-file
-      placeholder="Escribe el texto que deseas que mejore..."
-      (onMessage)="handleMessageWithFile($event)"/> -->
-
-      
-      <app-text-message-box-select
-      placeholder="Escribe el texto que deseas que mejore..."
-      [options]="[
-      {id:'1', text: 'Opcion 1'},
-      {id:'2', text: 'Opcion 2'}
-      ]"
-      (onMessage)="handleMessageWithSelect($event)"/>
-
+      <app-text-message-box
+      placeholder="Escribe aqui lo que deseas"
+      (onMessage)="handleMessage($event)"/>
 </div>
